@@ -1,19 +1,19 @@
-# react-material-modal
+# @infamoustrey/react-material-modal
 
 > A simple Modal written in React for the react-material-ui library
 
 Installation is simple
 
 ```bash
-yarn add react-material-modal
+yarn add @infamoustrey/react-material-modal
 # or
-npm install react-material-modal
+npm install @infamoustrey/react-material-modal
 ```
 
 Use is equally simple
 
 ```javascript
-import Modal from 'react-material-modal'
+import Modal from '@infamoustrey/react-material-modal'
 
 ...
 
