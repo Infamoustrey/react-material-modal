@@ -3,12 +3,18 @@
   "version": "1.0.1",
   "description": "A simple Modal written in React for the react-material-ui library",
   "main": "dist/index.js",
-  "repository": "git@github.com:Infamoustrey/react-material-modal.git",
   "author": "Trey Foster <treybfoster@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infamoustrey/react-material-modal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Infamoustrey/react-material-modal/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
