@@ -43,7 +43,7 @@ class Modal extends Component {
   }
 
   render() {
-    let { title, children, activator, activatorText } = this.props;
+    let { title, children, activator, activatorText, PaperProps } = this.props;
     let { open } = this.state;
     return (
       <React.Fragment>
@@ -58,7 +58,7 @@ class Modal extends Component {
             {activatorText ? activatorText : "Open"}
           </Button>
         )}
-        <Dialog open={open} onClose={this.handleClose}>
+        <Dialog open={open} PaperProps={PaperProps} onClose={this.handleClose}>
           <DialogTitle>{title}</DialogTitle>
           <DialogContent>{children}</DialogContent>
           <DialogActions>
